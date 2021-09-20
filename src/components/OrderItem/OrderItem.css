@@ -1,0 +1,21 @@
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  padding: 10px 0;
+}
+
+.order-item p {
+  padding-right: 50px;
+}
+
+.order-item .name {
+  flex: 1;
+}
+
+.order-item svg {
+  cursor: pointer;
+  padding-right: 10px;
+}

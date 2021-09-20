@@ -1,0 +1,42 @@
+.home-page-background {
+  background: url("../../images/italian-food-background.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: 100%;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page-overlay {
+  background: black;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.home-page-content {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.home-page-content p {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.home-page-content button {
+  font-size: 1.5rem;
+  color: white;
+  background-color: transparent;
+  border: 1.5px solid white;
+  padding: 20px 60px;
+  cursor: pointer;
+  letter-spacing: 3px;
+}
